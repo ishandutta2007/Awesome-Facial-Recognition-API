@@ -98,3 +98,7 @@ If you find this curated resource helpful for your computer vision projects, ide
 ## ⭐ Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Facial-Recognition-API&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Facial-Recognition-API&type=date&legend=top-left)
+=======
+**Made for L&D managers, internal communications teams, IT administrators, and enterprise video engineers.**
+
+Let's make enterprise video platforms more open, transparent, and accessible.
