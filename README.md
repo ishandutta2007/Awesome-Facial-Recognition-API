@@ -50,7 +50,7 @@ The table below ranks commercial Facial Recognition SaaS providers by company sc
 
 ## 🔓 Open-Source GitHub Repositories
 
-Explore production-grade open-source facial recognition frameworks, pre-trained models (ArcFace, FaceNet, RetinaFace), and Docker microservices ranked by GitHub Stars_Count (descending):
+Explore production-grade open-source facial recognition frameworks, pre-trained models (ArcFace, FaceNet, RetinaFace), and Docker microservices ranked by GitHub_Stars_Count (descending):
 
 | Repository | Description | GitHub_Stars 🔽 |
 | :--- | :--- | :--- |
