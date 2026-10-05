@@ -50,9 +50,9 @@ The table below ranks commercial Facial Recognition SaaS providers by company sc
 
 ## 🔓 Open-Source GitHub Repositories
 
-Explore production-grade open-source facial recognition frameworks, pre-trained models (ArcFace, FaceNet, RetinaFace), and Docker microservices ranked by GitHub Star count (descending):
+Explore production-grade open-source facial recognition frameworks, pre-trained models (ArcFace, FaceNet, RetinaFace), and Docker microservices ranked by GitHub Stars_Count (descending):
 
-| Repository | Description | Stars 🔽 |
+| Repository | Description | GitHub_Stars 🔽 |
 | :--- | :--- | :--- |
 | **[InsightFace](https://github.com/deepinsight/insightface)** | **State-of-the-art 2D/3D face analysis toolkit.** Provides ArcFace loss embeddings, SCRFD face detection, PySide6 desktop GUI evaluation studio, 1:N biometric search, and face swapping algorithms. (Python, C++, ONNX, PyTorch) — **MIT License** | [![Stars](https://img.shields.io/github/stars/deepinsight/insightface?style=social&color=white)](https://github.com/deepinsight/insightface/stargazers) |
 | **[DeepFace](https://github.com/serengil/deepface)** | **Lightweight facial recognition and facial attribute analysis framework.** Wraps VGG-Face, Google FaceNet, OpenFace, ArcFace, Dlib, and SFace with built-in anti-spoofing / liveness detection modules and REST API support. (Python) — **MIT License** | [![Stars](https://img.shields.io/github/stars/serengil/deepface?style=social&color=white)](https://github.com/serengil/deepface/stargazers) |
