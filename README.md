@@ -1,38 +1,26 @@
-# Awesome-Facial-Recognition-API
+# Awesome-Enterprise-Video-Platform
 
-I don't have access to your `README.md` file, and I have no tools to create files, run `git`, or push to GitHub. The `@README.md` reference only works inside your IDE. Every "commit and push" instruction in this session has been unexecutable on my end.
-
-
-
-Here is the complete, ready-to-paste README.md for **Awesome-Facial-Recognition-API**.
-
-
-
----
-
-
-
-# Awesome-Facial-Recognition-API
+# Awesome-Enterprise-Video-Platform
 
 
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
-*Focused on Face Detection, Face Matching, Liveness Detection & Identity Verification*
+*Focused on Video Content Management, Live Streaming, Enterprise Broadcasting & Video CMS*
 
 **Last updated: October 2026**
 
 
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Facial Recognition APIs**. These tools help developers add face detection, 1:1 verification, and 1:N identification to applications for identity verification, access control, security, and personalization.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Video Platforms**. These tools help organizations host, manage, deliver, and stream video content for corporate communications, training, virtual events, and knowledge sharing across distributed workforces.
 
 
 
-**Examples** include Microsoft Azure Face API, Amazon Rekognition Face, Face++ (Megvii), Kairos, FaceX, Luxand, Trueface, Idemia, Corsight AI, and Paravision (the category leaders).
+**Examples** include Microsoft Stream, Vimeo Enterprise, Kaltura, Panopto, Brightcove, Vidyard, Wistia, Qumu, Loom, and Dacast (the category leaders).
 
 
 
-**Open-source emphasis**: The open-source facial recognition ecosystem is **mature and production-proven**. **DeepFace** provides a comprehensive Python framework supporting multiple detection and recognition models with anti-spoofing capabilities . **InsightFace** offers state-of-the-art ArcFace embeddings with a desktop GUI and enterprise evaluation tools . **CompreFace** delivers a Docker-based, free open-source face recognition service that requires no machine learning expertise . **UniFace** is a newer all-in-one toolkit with production-ready ONNX Runtime acceleration .
+**Open-source emphasis**: The open-source enterprise video ecosystem is **mature and production-proven**. **Kaltura Community Edition** provides a comprehensive enterprise-grade video platform with live streaming, hosting, transcoding, and monetization capabilities . **MediaCMS** offers a modern, fully featured YouTube-like video CMS built with Python/Django and React, supporting adaptive transcoding, Whisper transcription, and granular access controls . **PeerTube** delivers a decentralized video platform with 600,000+ videos across 1,000+ interconnected instances . **Hovod** provides a self-hosted Mux alternative with HLS transcoding, S3-compatible storage, and AI processing .
 
 
 
@@ -54,7 +42,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 
 
-> **📊 Market Context**: The global facial recognition APIs market is estimated at **~$2.5B in 2026**, with **North America holding the largest share** due to advanced technological ecosystem and early AI-driven security adoption . **Asia Pacific is the fastest-growing region** at the highest CAGR, driven by smart city initiatives in China, India, Japan, and South Korea, plus government-backed digital identity programs . The sector is **moderately fragmented** — **Microsoft, Amazon, Google, and Megvii (Face++)** lead the cloud API tier, while specialized vendors (Trueface, Corsight AI, Paravision) compete on NIST benchmarks and on-premises deployment for mission-critical use cases . **Pricing varies dramatically**: Azure Face F0 provides **20 transactions/minute free** , AWS Rekognition offers **5,000 images/month free for 12 months** , Face++ provides **5,000 face detection and comparison calls/month free**, and Kairos offers **first 100 transactions free** .
+> **📊 Market Context**: The global enterprise video platform market is estimated at **~$8B in 2026**, growing toward **~$20B by 2032**. The sector is **highly fragmented** — Frost & Sullivan identifies **more than 50 long-standing providers, agile innovators, and specialized players**, with companies like Brightcove, Kaltura, Panopto, Vbrick, VIDIZMO, and Vimeo competing across the full video lifecycle . **Microsoft** leads through deep integration of video within its productivity ecosystem, enabling seamless communication across enterprise workflows . **Zoom** is recognized for ease of deployment and large-scale virtual event capabilities . **IBM** differentiates through AI-driven video analytics integrated with Watson . No single vendor holds a winner-take-all position.
 
 
 
@@ -62,23 +50,25 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 |----------|-------------|------------------------|------------------|--------------|
 
-| **[Microsoft Azure Face API](https://azure.microsoft.com/en-us/products/ai-services/ai-face)** | **Microsoft's face detection and recognition service.** Face detection, verification, identification, and liveness detection within Azure AI Services. | **F0 (Free)**: **20 transactions/minute**. **S0 (Standard)**: **10 TPS + 200 TPS** across resources in a region . Pricing per 1,000 transactions varies by feature. | **F0 tier**: **20 transactions/minute**, **1 Face resource** . **Free tier limits are extendable** via support request for paid subscriptions . | **~$281B revenue (Microsoft FY2025)** |
+| **[Microsoft Stream](https://www.microsoft.com/en-us/microsoft-365/microsoft-stream)** | **Microsoft's enterprise video service (now integrated into SharePoint and Teams).** Video hosting, live events, and AI-powered transcription within Microsoft 365. | **Included with Microsoft 365** (E1/E3/E5) at no additional cost. **Microsoft 365 Business Basic**: **$6/user/month** . | **Included with Microsoft 365** subscription. Requires active M365 license. | **~$281B revenue (Microsoft FY2025)** |
 
-| **[Amazon Rekognition Face](https://aws.amazon.com/rekognition/)** | **AWS's deep learning-based face analysis.** Face detection, analysis, comparison, and search across collections. | **Pay-as-you-go** based on images, video minutes, and features used . **Creating collections and users is free** — costs apply to image analysis and face metadata storage . | **Free tier**: **5,000 images/month** for **12 months** + **1,000 faces stored free** + **1,000 minutes of video** free per month for the first year . | **~$638B revenue (Amazon FY2025)** |
+| **[Vimeo Enterprise](https://vimeo.com/enterprise)** | **Professional video hosting and streaming platform.** Enterprise-grade security, analytics, and live streaming. | **Custom enterprise pricing** — quote required. **Vimeo Standard**: **$12/month** (annual). | **Free tier**: **500 MB storage**, 5 GB bandwidth/week. **30-day trial** for premium features. | **Private (~$6B valuation est.)** |
 
-| **[Face++ (Megvii)](https://www.faceplusplus.com/)** | **The leading Chinese computer vision API.** Face detection, comparison, search, landmark detection, and attribute analysis. | **Pay-as-you-go** with volume discounts. | **Free monthly quota**: **5,000 face detections/month**, **5,000 face comparisons/month**, **1,000 ID card OCR/month**, plus 500/month for various attribute analyses . **Quota resets monthly** — unused portion does not carry over . | **Private (~$4B valuation est.)** |
+| **[Kaltura](https://corp.kaltura.com/)** | **Comprehensive enterprise video platform.** Live streaming, video hosting, transcoding, monetization, and distribution services. | **Custom enterprise pricing** — quote required. | **Free trial** available on request. **Open-source Community Edition** available. | **Public (KLTR), ~$200M+ revenue est.** |
 
-| **[Kairos](https://www.kairos.com/)** | **Biometric verification API.** Face recognition, detection, and identity verification. | **Price per call decreases with volume**: **$0.65/call** at 1,000 calls, dropping to **$0.50/call** at 5,000 calls . **Volume discounts automatic**. | **First 100 transactions free** . | **Private (~$50M+ raised)** |
+| **[Panopto](https://www.panopto.com/)** | **Video platform for education and enterprise.** Video recording, live webcasting, content management, and search inside video. | **Custom enterprise pricing** — quote required. **Starting at $49/month** (Software Advice) . | **Free trial** available. **No perpetual free tier**. | **Private (~$200M+ revenue est.)** |
 
-| **[Luxand](https://luxand.com/)** | **Face recognition SDK and cloud API.** Face detection, recognition, and biometric verification. | **Luxand.cloud**: **$19/month** (usage-based) . **FaceSDK**: **$4,000/year** for mobile developers . | **Free trial** available for Luxand.cloud . **SDK is paid** — no free tier for production . | **Private (Luxand)** |
+| **[Brightcove](https://www.brightcove.com/)** | **Enterprise video platform.** Live streaming, video hosting, monetization, and distribution. | **Custom enterprise pricing** — quote required. | **Free trial** available. **No perpetual free tier**. | **Public (BCOV), ~$200M+ revenue est.** |
 
-| **[Trueface](https://pangiam.com/)** | **NIST-ranked fast and accurate face recognition.** SaaS, on-premises, and Docker deployment options. | **Custom enterprise pricing** — quote required . | **No free tier**. **Demo** required. | **Part of Pangiam**  |
+| **[Vidyard](https://www.vidyard.com/)** | **Video marketing and sales platform.** Video hosting, analytics, and personalized video. | **Free tier** available. **Pro**: **$19/month**. **Team**: **$300/month**. | **Free tier**: **5 videos**, 10 minutes/video, 200 views/month . | **Private (~$100M+ raised)** |
 
-| **[Corsight AI](https://www.corsight.ai/)** | **Israeli high-precision face recognition.** Supports masked face recognition. | **Per-person database license**. **2,000-person database** available as a unit of procurement . **Scales to 10,000,000 people** via multiple database stacking . | **No free tier**. **Licensed platform required** — mobile app is a client only . | **Private (Corsight AI)** |
+| **[Wistia](https://wistia.com/)** | **Video hosting for business.** Marketing analytics, lead generation, and video SEO. | **Free tier** available. **Pro**: **$19/month**. | **Free tier**: **3 videos**, 10 minutes/video, 200 views/month . | **Private (~$100M+ revenue est.)** |
 
-| **[Paravision](https://paravision.ai/)** | **NIST-leading face recognition.** High-accuracy biometric matching. | **Custom enterprise pricing** — quote required. | **No free tier**. **Demo** required. | **Private (~$50M+ raised)** |
+| **[Qumu](https://www.qumu.com/)** | **Enterprise video platform.** Live and on-demand video for internal communications and training. | **Custom enterprise pricing** — quote required. | **Free trial** available. **No perpetual free tier**. | **Private (~$50M+ revenue est.)** |
 
-| **[Idemia](https://www.idemia.com/)** | **Global biometric identity leader.** Face recognition for border control, law enforcement, and civil ID. | **Custom enterprise pricing** — quote required. | **No free tier**. **Government/enterprise sales only**. | **Private (~$2B+ revenue est.)** |
+| **[Loom](https://www.loom.com/)** | **Async video messaging platform.** Screen and camera recording with instant sharing. | **Business**: **$12.50/user/month** (annual). **Business + AI**: **$18/user/month**. | **Free tier**: **25 videos**, 5 minutes/video, 25 viewer limit. **14-day trial** for Business . | **Private (~$1.5B valuation est.)** |
+
+| **[Dacast](https://www.dacast.com/)** | **Live streaming and video hosting platform.** White-label, monetization, and analytics. | **Annual plans start at $2,400/year** ($200/month). **Monthly**: **$79/month** . | **14-day free trial** available . **No perpetual free tier**. | **Private (Dacast)** |
 
 
 
@@ -90,13 +80,23 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 |------|-------------|-------|
 
-| **[DeepFace](https://github.com/serengil/deepface)** — **The most comprehensive Python face analysis framework.** Supports multiple **face detection models** (RetinaFace, MTCNN, SSD, OpenCV) and **recognition models** (ArcFace, Facenet, VGG-Face, Dlib). **Anti-spoofing module** detects real vs. fake images. **Real-time webcam analysis**, REST API, Docker deployment, and CLI. **RetinaFace** recommended for accuracy; **OpenCV/SSD** for speed . **MIT License**. | [![Stars](https://img.shields.io/github/stars/serengil/deepface?style=social&color=white)](https://github.com/serengil/deepface/stargazers) | ~20,000 |
+| **[Kaltura Community Edition](https://github.com/kaltura/server)** — **The flagship open-source enterprise video platform.** Comprehensive suite covering live streaming, video hosting, transcoding, monetization, and distribution . **Open-source version of the commercial Kaltura platform** — designed as a FOSS, powerful, cost-effective alternative to proprietary video management applications . **AGPL-3.0**. | [![Stars](https://img.shields.io/github/stars/kaltura/server?style=social&color=white)](https://github.com/kaltura/server/stargazers) | ~404 |
 
-| **[InsightFace](https://github.com/deepinsight/insightface)** — **State-of-the-art face recognition with ArcFace embeddings.** **InsightFace 1.0** features a **lighter Python package** (optional face3d extension no longer built by default), a **cross-platform PySide6 desktop GUI** (InsightFace Evaluation Studio) for **1:1 verification, 1:N search, album clustering, identity-folder dataset evaluation, and face swap trials**, and **512-dimensional recognition embeddings** . Uses **SCRFD** detector with Auto: 128x128 + 640x640 detection size . **MIT License**. | [![Stars](https://img.shields.io/github/stars/deepinsight/insightface?style=social&color=white)](https://github.com/deepinsight/insightface/stargazers) | ~25,000 |
+| **[MediaCMS](https://github.com/mediacms-io/mediacms)** — **Modern, fully featured open-source video and media CMS.** Written in **Python/Django + React** with REST API . **Feature-rich**: video player with resolution switching and playback speed, access control (public/private/group), **automatic Whisper transcription**, multilingual subtitles, in-browser video editing and chapter division, playlist creation, user registration options (public/invitation/closed), resolutions from **144p to 1080p**, multiple compression formats (**h264, h265, vp9**), adaptive quality adjustment, social sharing buttons, embed codes, keyword prediction search, and responsive design . **Docker deployment** with `docker compose -f docker-compose.yaml -f docker-compose.full.yaml up -d` . **AGPL-3.0**. | [![Stars](https://img.shields.io/github/stars/mediacms-io/mediacms?style=social&color=white)](https://github.com/mediacms-io/mediacms/stargazers) | ~2,000 |
 
-| **[CompreFace (Exadel)](https://github.com/exadel-inc/CompreFace)** — **Leading free and open-source face recognition system.** Easily integrated into any system **without prior machine learning skills**. **RESTful API** for face recognition, face verification, face detection, landmark detection, age recognition, and gender recognition. **Docker deployment** — simple to set up . **Apache-2.0 License**. | [![Stars](https://img.shields.io/github/stars/exadel-inc/CompreFace?style=social&color=white)](https://github.com/exadel-inc/CompreFace/stargazers) | ~6,000 |
+| **[PeerTube](https://github.com/Chocobozzz/PeerTube)** — **Decentralized video platform for true digital freedom.** Free, open-source alternative to YouTube with **600,000+ videos across 1,000+ interconnected platforms**, no ads, no tracking . Federation allows instances to share content. **AGPL-3.0**. | [![Stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers) | ~15,000 |
 
-| **[UniFace](https://github.com/yakhyo/uniface)** — **New all-in-one face analysis toolkit (v1.0.0, November 2025).** **Production-ready capabilities**: face detection, facial recognition, facial landmark detection, and attribute analysis. **Two model families** for face detection. **Industry-standard embedding models** ArcFace and MobileFace for recognition. **106-point facial landmarks**, age estimation, gender classification, and emotion recognition. **ONNX Runtime** for automatic hardware acceleration (Apple Silicon, NVIDIA GPU, CPU). **MIT License**. | [![Stars](https://img.shields.io/github/stars/yakhyo/uniface?style=social&color=white)](https://github.com/yakhyo/uniface/stargazers) | ~500 |
+| **[Hovod](https://github.com/synapsr/hovod)** — **Open-source, self-hosted alternative to Mux.** **Upload & import** via drag-drop or presigned S3 URLs. **Adaptive HLS transcoding** from **360p to 4K (H.264)** with hardware-adaptive FFmpeg workers. **S3-compatible storage** (AWS S3, Cloudflare R2, Backblaze B2, MinIO). **Built-in dashboard** (React SPA) with video management, analytics, embeddable player. **AI processing**: Whisper transcription, auto-generated subtitles & chapters (optional, supports local models). **Analytics**: real-time views, watch time, retention curves, quality/device stats. **Multi-tenancy**: organizations, roles (owner/admin/member), API keys. **Single container** includes API, Worker, Dashboard, embedded MariaDB & Redis — only requirement is S3-compatible storage . | [![Stars](https://img.shields.io/github/stars/synapsr/hovod?style=social&color=white)](https://github.com/synapsr/hovod/stargazers) | ~300 |
+
+| **[Owncast](https://github.com/owncast/owncast)** — **Self-hosted live video streaming and chat server.** Point your live stream at a server you personally control and regain ownership over your content. **Twitch-like interface with built-in chat**. **MIT License** . | [![Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers) | ~9,000 |
+
+| **[AVideo (YouPHPTube)](https://github.com/WWBN/AVideo)** — **Open-source, self-hosted video sharing website platform (formerly YouPHPTube).** Supports user accounts, video uploads, streaming, and plugins for features like live broadcasting and advertisement. **PHP-based** . | [![Stars](https://img.shields.io/github/stars/WWBN/AVideo?style=social&color=white)](https://github.com/WWBN/AVideo/stargazers) | ~2,100 |
+
+| **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)** — **Real-time streaming server with sub-second latency support.** Offers **WebRTC and Low Latency DASH/HLS** for interactive live streaming. **C++ based** . | [![Stars](https://img.shields.io/github/stars/AirenSoft/OvenMediaEngine?style=social&color=white)](https://github.com/AirenSoft/OvenMediaEngine/stargazers) | ~3,200 |
+
+| **[MediaMTX](https://github.com/bluenviron/mediamtx)** — **Free, open-source media server supporting real-time video streaming, RTSP, RTMP, HLS, and WebRTC.** Enables management and streaming of video from various sources, including RTSP cameras, with low-latency performance. **Go-based** . | [![Stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers) | ~19,000 |
+
+| **[Jellyfin](https://github.com/jellyfin/jellyfin)** — **Open-source media server and client solution.** Streaming of video (and other media) to a variety of devices as a self-hosted alternative to Plex. **GPL-2.0** . | [![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin?style=social&color=white)](https://github.com/jellyfin/jellyfin/stargazers) | ~38,000 |
 
 
 
@@ -108,13 +108,17 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 |------|-------------|
 
-| **[FaceNet](https://github.com/davidsandberg/facenet)** — TensorFlow implementation of FaceNet. Unified embeddings for face recognition, verification, and clustering. |
+| **[Opencast](https://github.com/opencast/opencast)** — Open-source solution for automated video capture and distribution at scale. Widely used in higher education . |
 
-| **[Facenet-PyTorch](https://github.com/timesler/facenet-pytorch)** — PyTorch implementation with MTCNN and InceptionResnetV1. Pretrained on VGGFace2. |
+| **[MistServer](https://github.com/DDVTech/MistServer)** — Open-source streaming media server supporting multiple protocols (HLS, RTMP, WebRTC, etc.). Focuses on easy setup and compatibility . |
 
-| **[RetinaFace](https://github.com/deepinsight/insightface/tree/master/detection/retinaface)** — Single-stage face detector with landmark regression. High accuracy in crowd scenes. |
+| **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)** — Open-source, general-purpose WebRTC server (SFU and gateway). Modular, supports video conferencing, streaming, and SIP/RTSP/WebRTC interop . |
 
-| **[MediaPipe Face Detection](https://github.com/google-ai-edge/mediapipe)** — Google's lightweight face detection for mobile and edge devices. |
+| **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)** — Simple, high-efficiency, real-time video server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT, and GB28181. **MIT License** . |
+
+| **[Video.js](https://github.com/videojs/video.js)** — Open-source HTML5 video player built with JavaScript and CSS. Cross-browser compatibility, plugins, and responsive design . |
+
+| **[hls.js](https://github.com/video-dev/hls.js)** — JavaScript player library enabling HLS playback in web browsers using Media Source Extensions. Adaptive bitrate streaming engine with low-latency and DRM support . |
 
 
 
@@ -142,11 +146,11 @@ Star the repo if you find it useful!
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 
-- Facial recognition APIs handle **biometric data**, which is subject to strict regulations including **GDPR, BIPA (Illinois), CCPA, and various national biometric privacy laws**. Ensure proper consent, data retention policies, and compliance before deployment.
+- Enterprise video platforms handle sensitive organizational content and potentially confidential communications; ensure proper access controls, encryption, and compliance with data protection regulations.
 
-- **Open-source reality**: The open-source ecosystem for facial recognition is **mature and production-proven**. **DeepFace** provides comprehensive detection, recognition, and anti-spoofing . **InsightFace** delivers state-of-the-art ArcFace embeddings with a desktop GUI for evaluation . **CompreFace** offers a Docker-based service requiring no ML expertise . **UniFace** provides production-ready ONNX Runtime acceleration . However, **commercial platforms** (Azure Face, AWS Rekognition, Face++) provide **managed infrastructure, NIST-validated accuracy at scale, and enterprise SLAs** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for research, prototypes, and production pipelines with strong ML engineering capacity.
+- **Open-source reality**: The open-source ecosystem for enterprise video platforms is **mature and production-proven**. **Kaltura Community Edition** provides a comprehensive FOSS alternative to proprietary video management applications . **MediaCMS** delivers a modern, fully featured YouTube-like CMS with automatic transcription and adaptive transcoding . **PeerTube** powers a decentralized network of 1,000+ interconnected video platforms . **Hovod** provides a self-hosted Mux alternative with HLS transcoding and AI processing . However, **commercial platforms** (Microsoft Stream, Vimeo Enterprise, Kaltura, Panopto, Brightcove) provide **managed infrastructure, enterprise SLAs, and integrated analytics** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for organizations with strong engineering capacity seeking data sovereignty and cost control.
 
-- **Pricing caveat**: All pricing figures are **verified against cited search results** but may change without notice. **Azure Face F0 provides 20 transactions/minute free** . **AWS Rekognition offers 5,000 images/month free for 12 months** . **Face++ provides 5,000 face detections and comparisons monthly** . **Kairos offers first 100 transactions free** . **Luxand SDK is $4,000/year** . Always check the provider's official page for current pricing.
+- **Market fragmentation**: Frost & Sullivan notes the global EVP market features **more than 50 long-standing providers**, with differentiation based on video lifecycle support, live/on-demand capabilities, security, and third-party integrations .
 
 
 
@@ -154,6 +158,6 @@ Star the repo if you find it useful!
 
 
 
-**Made for ML engineers, computer vision developers, security architects, and identity verification teams.**
+**Made for L&D managers, internal communications teams, IT administrators, and enterprise video engineers.**
 
-Let's make facial recognition APIs more open, transparent, and privacy-respecting.
+Let's make enterprise video platforms more open, transparent, and accessible.
